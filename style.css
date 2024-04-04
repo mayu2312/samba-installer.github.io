@@ -14,6 +14,26 @@ body {
 main {
     background: rgba(255, 255, 255, 0.5);
     position: absolute;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%,-50%);
-    background-size: 60%;
+    padding: 50px 80px;
+    border-radius: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    justify-content: center;
 }
